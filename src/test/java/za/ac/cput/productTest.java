@@ -12,6 +12,7 @@ public class productTest {
         double number2 = 0.0;
         double expResult = 0.0;
         double result = Addittion.sum(number1, number2);
+
         assertEquals(expResult, result, 0.0);
 
     }
